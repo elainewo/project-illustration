@@ -9,9 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Merriweather', serif;
     margin: 0;
     font-weight: 500;
@@ -268,4 +266,85 @@ main section {
     display: inline-block;
     margin-top: 13%;
     border-radius: 4px;
+}
+
+footer {
+    position: relative;
+}
+
+.footer-title {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 3.6em;
+    top: 40vh;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.email {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    opacity: .5;
+    text-align: center;
+    top: 50vh;
+    left: 46%;
+}
+
+.mail {
+    display: inline-block;
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    top: 56vh;
+    left: 44%;
+    text-decoration: none;
+    color: black;
+}
+
+.follow {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    top: 59vh;
+    left: 45%;
+    opacity: .5;
+    color: black;
+}
+
+.social {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    top: 64vh;
+    left: 43%;
+}
+
+.social li {
+    display: inline;
+}
+
+.social li a {
+    text-decoration: none;
+    color: black;
+}
+
+.social li a::before {
+    content: ".";
+    font-size: 2em;
+}
+
+.fb::before {
+    color: #3b5998;
+}
+
+.ig::before {
+    color: #fcaf45;
+}
+
+.tw::before {
+    color: #55acee;
+}
+
+.yt::before {
+    color: #c4302b;
 }
